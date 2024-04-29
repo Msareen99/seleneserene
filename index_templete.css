@@ -1,0 +1,27 @@
+.title
+{
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  border-top: 5px solid #adff2f;
+    border-left: 5px solid #adff2f;
+    border-right: 5px solid #adff2f;
+ /*background-color: #415f05ad;*/
+  text-align: center;
+  
+}
+
+.whatever
+{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  text-align: center
+}
+
+#rectangle{
+  width:200px;
+  height:100px;
+  background:blue;
+}
+.verticalLine {
+  border-left: thick solid #ff0000;
+}
