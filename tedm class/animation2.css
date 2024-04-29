@@ -1,0 +1,28 @@
+#container {
+    height: 120%;
+    width: 100%;
+    border: 1px solid #333;
+    overflow: hidden;
+    margin: 25px auto;
+  }
+  
+  #box {
+    -webkit-animation-name: move;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: reverse;
+    -webkit-animation-timing-function: linear;
+  }
+  
+  #box:hover {
+    -webkit-animation-play-state: paused;
+  }
+  
+  @-webkit-keyframes move {
+    0% {
+      margin-top: -100%;
+    }
+    100% {
+      margin-top: 100%;
+    }
+  }
